@@ -1,12 +1,19 @@
-var books = ["bangla", "English", "Somaj", "Biggan", "Dhormo"];
+var books = ["Bangla", "English", "Biggan", "Somaj", "Dhormo", "Gonit"];
 
-var bookSecondPosition = books[1];
+var bookName = books[1];
+var bookPosition = books.indexOf("English");
+console.log('book Name is:'+bookName );
+console.log('book Position is: => ' +bookPosition);
 
-console.log(bookSecondPosition);
+// var books = ["bangla", "English", "Somaj", "Biggan", "Dhormo"];
 
-var number = [ 111, 222, 333, 444, 555, 666, 7777, 888, 999, 100];
-var numberPosition = number[2];
-console.log(numberPosition);
+// var bookSecondPosition = books[1];
+
+// console.log(bookSecondPosition);
+
+// var number = [ 111, 222, 333, 444, 555, 666, 7777, 888, 999, 100];
+// var numberPosition = number[2];
+// console.log(numberPosition);
 
 
 
@@ -25,6 +32,3 @@ console.log(numberPosition);
 // var secondNumber = vowels[4];
 // var vowelsIndex = vowels.indexOf('z');
 // console.log(vowelsIndex);
-
-
-
