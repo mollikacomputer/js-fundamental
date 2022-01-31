@@ -1,3 +1,4 @@
+
 //========calculate===inches to Feet =============
 // function getFeet(inches){
 //         feet = inches /12;
